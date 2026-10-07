@@ -5,6 +5,11 @@ spring:
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
 
+  security:
+    user:
+      name: ${DEV_API_USERNAME}
+      password: ${DEV_API_PASSWORD}
+
   jpa:
     hibernate:
       ddl-auto: validate
