@@ -1,0 +1,42 @@
+# --- Java / Maven ---
+target/
+*.class
+*.jar
+*.war
+*.log
+hs_err_pid*
+!**/.mvn/wrapper/maven-wrapper.jar
+
+# --- IDEs ---
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.sts4-cache/
+nbproject/
+
+# --- Secretos y configuración local ---
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.properties
+
+# --- Node / React Native / Web (para más adelante) ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.expo/
+dist/
+build/
+
+# --- Docker (datos locales) ---
+infrastructure/docker/data/
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
